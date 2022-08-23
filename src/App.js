@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './components/Navbar';
 function App() {
+  let username = "shastri"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar data={username}  />
+      <h2>Learn React </h2>
+      <Day1 />
     </div>
   );
 }
 
 export default App;
+
+function Day1() {
+  return (
+    <h3 className='day01'>Day1: Basics</h3>
+  )
+}
