@@ -1,6 +1,5 @@
 import "./Navbar.css"
 function Navbar(props) {
-  console.log(props);
   return (
     <div className="Navbar ">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
