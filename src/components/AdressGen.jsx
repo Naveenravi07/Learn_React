@@ -6,7 +6,7 @@ function AdressGen() {
     let [name, setName] = useState(nameof)
     const getName = () => {
         let Fakerator = require("fakerator");
-        let fakerator = Fakerator("de-DE");
+        let fakerator = Fakerator("en-EN ");
         let nameof = fakerator.names.name();
         setName(name = nameof)
     }
